@@ -72,6 +72,8 @@ body{
     border: none;
     background-color: var(--input-padrao);
     border-radius: 10px;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
 }
 
 .bugado{
