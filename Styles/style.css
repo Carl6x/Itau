@@ -70,7 +70,7 @@ body{
 
 .formulario_input{
     height: 45px;
-    width: 90%;
+    min-width: 95%;
     border: none;
     background-color: var(--input-padrao);
     border-radius: 10px;
