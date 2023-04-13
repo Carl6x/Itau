@@ -63,6 +63,7 @@ body{
 }
 .input-box{
     width: calc(100% / 3 - 20px);
+    margin: 10px;
    
     
 
