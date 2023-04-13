@@ -55,7 +55,6 @@ body{
 .principal_formulario{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     padding-left:1rem ;
 
 
@@ -83,6 +82,17 @@ body{
     color:var(--text-color);
     font-weight: 700;
     
+}
+
+.maior{
+    width:474px;
+
+}
+
+.formulario_input-autocomplete{
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--text-color)
 }
 
 
