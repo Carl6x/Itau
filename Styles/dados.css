@@ -102,7 +102,8 @@ body{
 .formulario_input-autocomplete{
     font-size: 12px;
     font-weight: 700;
-    color: var(--text-color)
+    color: var(--text-color);
+    display:none;
 }
 
 #nickname{
