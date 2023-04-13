@@ -114,6 +114,11 @@ body{
     margin: 2rem;
 }
 
+
+.input-button{
+    margin: 2rem;
+
+}
 .input-button-abrir{
     width: 272px;
     padding: 1rem;
@@ -122,6 +127,7 @@ body{
     border-radius: 6px;
     border: none;
     margin: 2rem 0;
+    margi
     align-self: center;
     font-weight: 700;
     font-size: 20px;
