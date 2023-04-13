@@ -104,4 +104,23 @@ body{
     margin-bottom: 0;
 }
 
+.input-button{
+    display: grid;
+    place-items: center;
+}
+
+.input-button-abrir{
+    width: 272px;
+    padding: 1rem;
+    background-color: var(--background-color);
+    color: var(--branco);
+    border-radius: 6px;
+    border: none;
+    margin: 2rem 0;
+    align-self: center;
+    font-weight: 700;
+    font-size: 20px;
+    cursor: pointer;
+}
+}
 
