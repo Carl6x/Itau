@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;700&display=swap');
+
+:root{
+    --background-color: #EC7000;
+    --fonte-principal:'Inter';
+    --branco:white;
+    --input-padrao:#D9D9D9;
+
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: var(--fonte-principal);
+}
+
+.cabeçalho__imagem{
+    padding: 1rem;
+    border: none;
+
+}
+
+.principal{
+    width:100% ;
+    min-height: 100vh;
+}
+
+.titulo_pagina{
+    font-size: 45px;
+    color: var(--branco);
+    font-weight: 700;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 1.3rem;
+}
+
+.formulario{
+    background-color: var(--branco);
+    width: 80%;
+    margin: auto;
+    border-radius: 0.5rem;
+
+}
+
+.titulo_formulario{
+    text-align: center;
+    font-weight: 700;
+    padding: 2rem;
+    font-size:24px;
+    
+    
+}
+
+.principal_formulario{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left:1rem ;
+
+
+}
+.input-box{
+    width: calc(100% / 2 - 20px);
+   
+    
+
+}
+
+.formulario_input{
+    height: 45px;
+    width: 90%;
+    border: none;
+    background-color: var(--input-padrao);
+    border-radius: 10px;
+}
+
+.bugado{
+    display: block;
+}
+
+
+
