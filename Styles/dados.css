@@ -110,6 +110,7 @@ body{
 .input-button{
     display: grid;
     place-items: center;
+    
 }
 
 .input-button-abrir{
