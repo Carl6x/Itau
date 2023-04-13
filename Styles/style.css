@@ -77,6 +77,8 @@ body{
     margin-top:1rem ;
     margin-bottom: 1rem;
     font-weight:700;
+    font-size:18px;
+    font-family: var(--fonte-principal);
 }
 
 .bugado{
