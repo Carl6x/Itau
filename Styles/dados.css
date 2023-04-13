@@ -145,5 +145,5 @@ body{
     width: 176px;
     background-color: var(--branco);
     color: var(--preto);
-    border-color:var(--azul-borda);
+    border:1px solid var(--azul-borda)
 }
