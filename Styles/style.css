@@ -74,7 +74,8 @@ body{
     border: none;
     background-color: var(--input-padrao);
     border-radius: 10px;
-    margin: 1rem 2rem;
+    margin-top:1rem ;
+    margin-bottom: 1rem;
     font-weight:700;
     font-size:18px;
     font-family: var(--fonte-principal);
