@@ -71,7 +71,7 @@ body{
 
 .formulario_input{
     height: 45px;
-    width: 90%;
+    min-width: 95%;
     border: none;
     background-color: var(--input-padrao);
     border-radius: 10px;
@@ -108,7 +108,7 @@ body{
 }
 
 .input-button{
-    display: grid;
+    display: g;
     place-items: center;
     
 }
@@ -125,5 +125,7 @@ body{
     font-weight: 700;
     font-size: 20px;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
     
 }
