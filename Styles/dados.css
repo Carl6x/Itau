@@ -108,8 +108,9 @@ body{
 }
 
 .input-button{
-    display: g;
-    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
     
 }
 
