@@ -1,3 +1,77 @@
 @import url(style.css);
 
+.principal{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.dados_titulo_principal{
+    color: var(--branco);
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.dados_paragrafo_principal{
+    font-weight: 800;
+    font-size: 30px;
+    color: var(--branco);
+    margin:1rem 0;
+
+}
+
+.dados_conta{
+    background-color: var(--branco);
+    border-radius:5px;
+    padding: 1rem 1rem 3rem 1rem;
+    width:70%;
+
+}
+
+.dados_conta_agencia{
+    text-align: center;
+    margin-bottom:1.5rem;
+    font-weight: 700;
+}
+
+.agencia_lista{
+    color:var(--text-color);
+    font-weight: 700;
+}
+.dados-negrito{
+    color: var(--preto);
+    font-weight: 700;
+}
+
+.lista_item{
+    margin:1rem;
+}
+
+.beneficios{
+    display: grid;
+    max-width: 48%;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+}
+
+.beneficios_card{
+    background-color: var(--branco);
+    border-radius: 8px;
+    border-top: 10px solid var(--blue);
+    padding: 1.2rem;
+}
+
+.card_titulo{
+    display: inline;
+    font-size:20px;
+    font-weight: 400;
+    margin-left:1rem;
+}
+
+.card_paragrafo{
+    margin:1rem 0
+}
+
+
+
 
