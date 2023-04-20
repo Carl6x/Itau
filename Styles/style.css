@@ -10,9 +10,6 @@
     --preto:black;
     --blue: #106EB0;
     
-
-
-
 }
 
 body{
@@ -129,4 +126,8 @@ body{
     cursor: pointer;
     text-decoration: none;
     text-align: center;
+}
+
+.formulario_input::placeholder{
+    font-weight: 700;
 }
