@@ -4,16 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../Styles/reset.css">
-    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="stylesheet" href="Styles/reset.css">
+    <link rel="stylesheet" href="Styles/style.css">
     <title>Itaú-Abertura de contas</title>
 </head>
 <body>
     <header class="cabeçalho">
-        <img src="../img/logo-itau 1.png" alt="Logo itau" class="cabeçalho__imagem">
-        <img src="../img/ItauEmpresasText 1.svg" alt="ItauEmpresas" class="cabeçalho__imagem">
-     </header>
-   <main class="main-principal">
+        <img src="img/logo-itau 1.png" alt="Logo itau" class="cabeçalho__imagem">
+        <img src="img/ItauEmpresasText 1.svg" alt="ItauEmpresas" class="cabeçalho__imagem">
+    </header>
+    <main class="main-principal">
             
             <h2 class="titulo_pagina">Abertura de conta PJ</h2>
              <div class="formulario">
@@ -21,60 +21,55 @@
                 <form action="" class="principal_formulario">
                      <div class="input-box"> 
                         <label for="CNPJ" class="formulario_label bugado">CNPJ</label>
-                        <input type="text" id="CNPJ" class="formulario_input" required minlength="14" maxlength="18">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="CNPJ" class="formulario_input">
                      </div>
                  
                         
                      <div class="input-box maior">
                         <label for="razão" class="formulario_label">Razão social</label>
-                        <input type="text" id="razão" class="formulario_input" required maxlength="30">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="razão" class="formulario_input">
                     </div>
                         
                     <div class="input-box">
                         <label for="CPF" class="formulario_label">CPF representante legal</label>
-                        <input type="text" id="CPF" class="formulario_input" required minlength="11" maxlength="14">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="CPF" class="formulario_input">
                     </div>
                     
                     <div class="input-box">
                         <label for="nome" class="formulario_label">Nome representante legal</label>
-                        <input type="text" id="nome" class="formulario_input" required minlength="6" maxlength="20">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="nome" class="formulario_input">
                     </div>
                         
                     
                     <div class="input-box">
                         <label for="nickname" class="formulario_label">Como deseja ser chamado</label>
-                        <input type="text" id="nickname" class="formulario_input" required maxlength="10">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="nickname" class="formulario_input">
                             <input type="checkbox" name="" id="autocomplete">
                             <label for="autocomplete" class="formulario_input-autocomplete">Mesmo nome do representante legal</label>
                             </div>
                     
                     <div class="input-box">
                         <label for="funcionarios" class="formulario_label">Quantidade de funcionários</label>
-                        <input type="text" id="funcionarios" class="formulario_input" required>
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="funcionarios" class="formulario_input">
                     </div>
                         
                     
                     <div class="input-box">
                         <label for="faturamento" class="formulario_label">Faturamento anual</label>
-                        <input type="text" id="faturamento" class="formulario_input" required minlength="3">
-                        <span class="mensagem_erro"></span>
+                        <input type="text" id="faturamento" class="formulario_input">
                     </div>
    
                 </form>
-
-                  <div class="input-button">
-                     <input type="submit" value="Abrir conta PJ" class="input-submit">
-                  </div>
+                <div class="input-button">
+                    <a href="dados.html" 
+                     class="input-button-abrir">Abrir conta PJ</a>
+                  </div> 
+                 
                  
             </div>
     </main>
-    <script src="../js/script.js" ></script>
+
+    
     
 </body>
 </html>
