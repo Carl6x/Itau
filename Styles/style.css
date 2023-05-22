@@ -9,6 +9,7 @@
     --input-only-view:#D9D9D9;
     --preto:black;
     --blue: #106EB0;
+    --vermelho-erro:#B71C1C;
     
 
 
@@ -72,6 +73,13 @@ body{
 
 }
 
+.mensagem_erro{
+    font-size: 15px;
+    margin: 0;
+    color: var(--vermelho-erro);
+    display: none;
+}
+
 .formulario_input{
     height: 45px;
     min-width: 95%;
@@ -129,4 +137,18 @@ body{
     cursor: pointer;
     text-decoration: none;
     text-align: center;
+}
+
+.input-submit{
+    width: 282px;
+    padding: 18px;
+    height: 58px;
+    border-radius: 8px;
+    background-color: var(--background-color);
+    color: var(--branco);
+    font-family: var(--fonte-principal);
+    font-weight: 700;
+    font-size: 24px;
+    margin: 2rem 0;
+    border: none;
 }

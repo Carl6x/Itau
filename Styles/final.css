@@ -50,7 +50,7 @@
 .beneficios{
     display: grid;
     max-width: 48%;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr ;
     gap: 1.5rem;
 }
 
@@ -71,7 +71,3 @@
 .card_paragrafo{
     margin:1rem 0;
 }
-
-
-
-
